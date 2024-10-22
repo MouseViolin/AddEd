@@ -20,8 +20,9 @@ import seaborn as sns
 
 ## Запрос
 
-Запрос сформирован на основе примера на официальном [сайте](https://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx?op=GetCursOnDate)
-![[Pasted image 20241022195712.png]]
+Запрос сформирован на основе примера на официальном [сайте](https://www.cbr.ru/DailyInfoWebServ/DailyInfo.asmx?op=GetCursOnDate).
+<img width="1058" alt="image" src="https://github.com/user-attachments/assets/8dbf8fc3-3ad6-4e26-a921-e9b8cf27a545">
+
 
 После успешного запроса мы получаем ответ в XLM формате, из которого ищем необходимый фрагмент `.//ValuteCursOnDate`.
 
@@ -34,3 +35,4 @@ if vname == "Австралийский доллар"
 # Не успел оформить (((
 
 позже дооформлю
+![23ff55ce252295d2afba88df99e71010](https://github.com/user-attachments/assets/ee77495d-ad2f-450b-9fbc-ac7339170a8a)
